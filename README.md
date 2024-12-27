@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: failure to install dependencies due to missing system packages.  The original Dockerfile attempts to install python packages but neglects required system dependencies. The solution demonstrates how to install necessary system packages before installing python packages to rectify this issue.
